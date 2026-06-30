@@ -11,7 +11,7 @@ To improve the discriminative ability of the embeddings, the WavLM model is fine
 
 After training, the model is frozen and embeddings are extracted for all recordings. Recording-level embeddings are averaged to obtain a single speaker-level representation. Finally, Ridge regression is applied to predict UPDRS scores for Parkinson’s disease participants, and performance is evaluated using Leave-One-Out cross-validation with Root Mean Squared Error (RMSE) as the evaluation metric.
 
-
+## PC-GITA dataset is not included due to licensing. Users must request access separately.
 ## Pipeline
 
 1. Dataset indexing (.wav file organization)
