@@ -29,9 +29,26 @@ After training, the model is frozen and embeddings are extracted for all recordi
 - Loss: Contrastive loss
 - Regression: Ridge Regression + LOOCV
 
-## Installation
+## Installation -  Dependencies
+
+Before running the project, install the required Python packages:
 
 ```bash
 git clone https://github.com/yourusername/pcgita-ml.git
 cd pcgita-ml
 pip install -r requirements.txt
+
+The project depends on the following libraries:
+
+- torch
+- torchaudio
+- transformers
+- numpy
+- pandas
+- scikit-learn
+- openpyxl
+- soundfile
+- librosa
+- jupyter
+- notebook
+- tqdm
